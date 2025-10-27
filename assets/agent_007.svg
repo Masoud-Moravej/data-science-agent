@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160">
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="40%" r="70%">
+      <stop offset="0%" stop-color="#f2c94c" stop-opacity="0.35"/>
+      <stop offset="80%" stop-color="#05070d" stop-opacity="0.05"/>
+      <stop offset="100%" stop-color="#05070d" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect x="12" y="12" width="136" height="136" rx="28" fill="#05070d"/>
+  <rect x="18" y="18" width="124" height="124" rx="24" fill="none" stroke="#f2c94c" stroke-width="2" opacity="0.4"/>
+  <circle cx="80" cy="70" r="46" fill="url(#glow)"/>
+  <path d="M40 112 H120" stroke="#f2c94c" stroke-width="2" stroke-linecap="round" opacity="0.35"/>
+  <path d="M60 110 C64 98 72 90 80 90 C88 90 96 98 100 110" stroke="#f2c94c" stroke-width="4" stroke-linecap="round" fill="none" opacity="0.6"/>
+  <text x="80" y="78" text-anchor="middle" font-family="Arial Black, 'Segoe UI', sans-serif" font-weight="700" font-size="40" fill="#f2c94c">007</text>
+  <text x="80" y="132" text-anchor="middle" font-family="Futura, 'Segoe UI', sans-serif" font-size="13" letter-spacing="10" fill="#f2c94c" opacity="0.7">AGENT</text>
+</svg>

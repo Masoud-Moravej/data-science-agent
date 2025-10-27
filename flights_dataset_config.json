@@ -1,0 +1,9 @@
+{
+  "datasets": [
+    {
+      "type": "bigquery",
+      "name": "cymbal_flights_dataset",
+      "description": "This data warehouse is used to analyze everything to run the business better.  It contains historical data from the AlloyDB database, enriched with other large-scale datasets. The data is somewhat denormalized (flattened) into wide tables to make querying faster and simpler.  For multi-year data, it includes data for the year 2024-2025."
+    }
+  ]
+}
